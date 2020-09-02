@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 header{
-    margin: 0 0 150px 0;
+    margin: 0 0 100px 0;
 }
 a{
     text-decoration: none;
@@ -73,14 +73,14 @@ input[type=text]{
 }
 #Slogo > svg{
     color: rgb(170, 170, 170);
-    margin-top: 9px;
+    margin-top: 12px;
 }
 button{
-    background-color: #d6d6d6;
+    background-color: #efefef;
     border: 1px #d6d6d6 solid;
-    padding: 16px 32px;
+    padding: 10px 20px;
     text-decoration: none;
-    margin: 10px 10px;
+    margin: 10px 5px;
     cursor: pointer;
     border-radius: 10px;
 }
@@ -90,8 +90,14 @@ button:hover{
     
 }
 footer{
+    background-color: #efefef;
+    border: 1px solid #d6d6d6;
+    color: #666;
     position: fixed;
     width: 100%;
-    bottom: 10px;
+    bottom: 0px;
     
+}
+footer >ul >li > a{
+    color: #666;
 }
