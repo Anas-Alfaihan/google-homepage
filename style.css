@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    margin: 0 0 250px 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0 30px;
+}
+ul > li{
+    font-size: 0.9em;
+    margin: 10px
+}
+nav, footer{
+    display: flex;
+    justify-content: space-between;
+}
